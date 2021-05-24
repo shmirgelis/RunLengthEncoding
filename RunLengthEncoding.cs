@@ -48,6 +48,7 @@ public static class RunLengthEncoding
             if (lastBlock.Letter == currentLetter)
             {
                 lastBlock.Count++;
+                blocks[^1] = lastBlock;
             }
             else
             {

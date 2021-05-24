@@ -1,4 +1,4 @@
-﻿public class LetterBlock
+﻿public struct LetterBlock
 {
     public char Letter { get; }
     public int Count { get; set; }
